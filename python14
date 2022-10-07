@@ -1,0 +1,13 @@
+def stringLength(string):
+    length = 0
+    for i in string:
+        length = length + 1
+    return length
+        
+str1 = input("Please enter the text you want : ")
+
+print("\n str1 = ", str1)
+
+strlength = stringLength(str1)
+
+print("Characters  = ", strlength)
