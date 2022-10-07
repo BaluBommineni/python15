@@ -1,0 +1,11 @@
+intLi = []
+
+Number = int(input("Please enter the Total Number of Items : "))
+
+for i in range(1, Number + 1):
+    value = int(input("Please enter the Value of %d Element : " %i))
+    intLi.append(value)
+    
+print("\n Original = ", intLi)
+      
+print("Size of a Dynamic = ", len(intLi))
