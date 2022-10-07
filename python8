@@ -1,0 +1,11 @@
+def sodCalc(val):
+    total = 0
+    while(val > 0):
+        Reminder = val % 10
+        total = total + Reminder
+        val = val //10
+    return total
+
+val = int(input("Please Enter any Value: "))
+total = sodCalc(val)
+print("\n Sum of the digits of Given Value = %d" %total)
